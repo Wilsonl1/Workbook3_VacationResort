@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TranquilTropicalGataway</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="stay.html">Book Your Stay</a>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <form id="StaySubmitForm">
+        <!-- Name input  -->
+        Name: <input type="text" id="nameInput"/>
+        <br>
+        <br>
+        <!-- Email input -->
+        Email: <input type="text" id="emailInput"/>
+        <br>
+        <br>
+        <!-- Check in date  -->
+        Date: <input type="date" id="dateInput"/>
+        <br>
+        <br>
+        <!-- # of nights staying -->
+        Number of nights <select>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>              
+        </select>
+        <br>
+        <br>
+        <!-- End of # of nights -->
+
+        <!-- Radio room selection -->
+        Room type: 
+        <br>
+        <br>
+        <input type="radio" id="twoBedroomSuite" name="two-bedroom-suite"/> 2 - Bedroom Suite
+        <input type="radio" id="kingRoom" name="king"/> King
+        <input type="radio" id="queenRoom" name="tqueen"/> Queen
+
+        <br>
+        <br>
+        <!-- End of room selection -->
+
+    <!-- Number of Guests ina room  -->
+
+        Number of Adults:
+    <select name="number-of-adults" id="numberOfAdults">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+
+        <br>
+        <br>
+
+    Number of Children:
+    <select name="number-of-kids" id="numberOfKids">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+    </select>
+
+        <br>
+        <br>
+<!-- Discount selection area -->
+    Discounts:
+        <br>
+        <br>
+         <input type="radio" id="noDiscount" name="no-discount" /> None
+         <input type="radio" id="seniorDiscount" name="senior-discount"/> AAA/Senior 10%
+         <input type="radio" id="MilitaryDiscount" name="military-discount" /> Military 20%
+         
+<!-- Submit and calculate button area -->
+<button id="calculateStay">Calculate my stay</button>
+    </form>
+
+    
+
+    <script src="stay.js"></script>
+</body>
+</html>
